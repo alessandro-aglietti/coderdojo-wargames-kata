@@ -1,0 +1,16 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Great! Now you know how to run commands!                       ::
+::                                                                ::
+:: Now your an on the "boat" sever: the server name is the part   ::
+::                                  after the '@'.                ::
+::                                                                ::
+:: The boat server is the landing server before you enter the     :: 
+::                                                  battlefield!! ::
+::                                                                ::
+:: At wargames there are two team: red team and blue team.        ::
+::                                                                ::
+:: Use the command 'autojoin' to enter as a part of one of them.  ::
+::                                                                ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

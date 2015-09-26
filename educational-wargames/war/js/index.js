@@ -2,6 +2,7 @@
  * 
  */
 var NICKNAME;
+var TERM;
 
 $(function(){
 	console.log("onload");
@@ -20,12 +21,12 @@ $(function(){
 		Cookies.set('waragmes_nickname', NICKNAME, { expires: 7 });
 	}
 	
-	$('#term-wrapper').terminal(function(command, term) {
+	TERM = $('#term-wrapper').terminal(function(command, term) {
         if (command !== '') {
             try {
-                term.echo(new String(command));
+                term.echo(commandManager(command));
             } catch(e) {
-                term.error(new String(e));
+                term.error('Ooops! Error!');
             }
         } else {
            term.echo('');
